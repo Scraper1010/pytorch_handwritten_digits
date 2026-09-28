@@ -1,0 +1,14 @@
+# Inference + training dependencies (verified with Python 3.13 on Windows + CUDA).
+# Install with:  pip install -r requirements.txt
+#
+# Note: plain `torch==2.13.0` from PyPI already bundles CUDA. If pip cannot
+# resolve it on your platform, install torch first from https://pytorch.org
+# (e.g. the cu126 build) and then install the rest of this file.
+
+torch==2.13.0        # model, training loop, inference
+gradio==6.28.0       # drawing canvas + live prediction web UI
+numpy==2.5.2         # array handling in dataset + preprocessing
+pillow==12.3.0       # image conversions for canvas preprocessing
+matplotlib==3.11.1   # training-curve plots saved to assets/
+requests==2.34.2     # MNIST download in src/dataset.py
+tqdm==4.70.0         # training progress bars
