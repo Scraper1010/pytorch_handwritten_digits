@@ -13,6 +13,8 @@ minimal Gradio drawing app with real-time predictions.
 
 ## What it does
 
+![Live drawing demo](assets/demo.gif)
+
 - **Draw** a digit (0–9) with a black pencil on a white canvas, eraser included.
 - **Classify** instantly — top-3 confidences update as you draw, or on button press.
 - **Clear** with one button that reliably resets both canvas and predictions.
