@@ -48,7 +48,8 @@ python app.py
 ├── app.py                 # Gradio UI + inference pipeline
 ├── train.py               # training loop (Adam, StepLR, best-checkpoint saving)
 ├── requirements.txt       # pinned dependencies
-├── assets/                # training_curves.png (results plot)
+├── scripts/               # make_demo_gif.py, evaluate_preprocessing.py
+├── assets/                # demo.gif + training_curves.png
 ├── checkpoints/           # mnist_cnn.pth lives here (git-ignored, reproducible)
 ├── data/                  # MNIST archives (auto-downloaded, git-ignored)
 ├── docs/                  # how each piece works (linked below)
