@@ -1,0 +1,19 @@
+# Python bytecode & environments
+__pycache__/
+*.py[cod]
+venv/
+.env/
+
+# Datasets
+data/
+mnist_raw/
+*.gz
+
+# Model checkpoints (optional: keep .pth out of git, or use Git LFS)
+*.pth
+*.pt
+*.onnx
+
+# Matplotlib & IDE
+.vscode/
+.idea/

@@ -1,0 +1,5 @@
+# Normalize line endings (LF in repo, native on checkout); keep images binary.
+* text=auto
+*.png binary
+*.pth binary
+*.gz binary
